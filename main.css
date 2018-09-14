@@ -1,0 +1,28 @@
+
+.game-board{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transform: translate(650px, -10px);
+  height: 200px;
+  width: 250px;
+
+}
+
+.board-box{
+  background-color: #c68c53;
+  height: 200px;
+  width: 200px;
+  border: solid 2px #6e3aa1;
+    border-radius: 10px;
+}
+
+h1{
+  font-size: 75px;
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  color: #2f517d;
+}
+
+body{
+  background-color: #a787ac;
+}
